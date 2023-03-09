@@ -49,8 +49,7 @@
 .cards {
     display: flex;
     justify-content: center;
-    gap: 100px;
-    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .card-01 {
@@ -59,7 +58,6 @@
     padding-bottom: 10px;
     background-color: #eee;
     margin-top: 2%;
-    margin-left: 2%;
     border-radius: 10px;
 }
 
@@ -72,6 +70,7 @@
 .icon__card {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .flex-icons {
@@ -101,15 +100,16 @@
     display: flex;
     background-color: #eee;
     margin-top: 2%;
-    height: 236px;
-    width: 700px;
+    height: 190px;
+    width: 500px;
     border-radius: 10px;
 }
 
 .img-card{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    width: 350px;
+    width: 210px;
+    height: 190px;
 }
 
 .titulo_card02{
@@ -125,5 +125,5 @@
     width: 100%;
     justify-content: center;
     gap: 40px;
-    margin-top: 35px;
+    margin-top: 20px;
 }
